@@ -16,7 +16,7 @@ The `Comp-401` is a MetaTrader 5 Expert Advisor designed to implement a Moving A
 
 ## Strategy
 
-The EA monitors two moving averages: a fast-moving average (default period: 18) and a slow-moving average (default period: 50). When the fast-moving average crosses the slow-moving average upwards, it triggers a "buy" signal. When the fast-moving average crosses the slow-moving average downwards, it triggers a "sell" signal.
+The EA monitors two moving averages: a fast-moving average (default period: 18) and a slow-moving average (default period: 50). When the fast-moving average crosses the slow-moving average upwards, it triggers a "buy" signal. When the fast-moving average crosses the slow-moving average downwards, it triggers a "sell" signal. These are input varibales and can be changed as per the user.
 
 **Additional Features:**
 - **Break-Even Stop:** The EA moves the stop loss to break-even after a specified profit level is reached, ensuring profits are locked in while providing extra cushion pips.
